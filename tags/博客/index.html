@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>博客 | 我的学习博客</title>
+<meta name="keywords" content="">
+<meta name="description" content="记录学习、思考与成长的个人博客">
+<meta name="author" content="NaFisdope">
+<link rel="canonical" href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aff43e08bd0f1cf846f7df8b6b91ec703ce52e92e29b5df6ec5315be2cc3c297.css" integrity="sha256-r/Q&#43;CL0PHPhG99&#43;La5HscDzlLpLim1327FMVvizDwpc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+<style>
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+    
+     
+    html {
+        scroll-behavior: smooth;
+    }
+    
+     
+    ::selection {
+        background: rgba(13, 110, 253, 0.2);
+        color: var(--primary);
+    }
+    
+    ::-moz-selection {
+        background: rgba(13, 110, 253, 0.2);
+        color: var(--primary);
+    }
+</style>
+
+
+<meta name="theme-color" content="#0d6efd">
+<meta name="msapplication-TileColor" content="#0d6efd">
+
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+<link rel="preload" href="/assets/css/stylesheet.min.css" as="style">
+
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', function() {
+                document.body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
+                setTimeout(() => {
+                    document.body.style.transition = '';
+                }, 300);
+            });
+        }
+        
+        
+        document.body.style.opacity = '0';
+        document.body.style.transform = 'translateY(20px)';
+        document.body.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        
+        setTimeout(() => {
+            document.body.style.opacity = '1';
+            document.body.style.transform = 'translateY(0)';
+        }, 100);
+        
+        
+        let backToTopButton = document.createElement('button');
+        backToTopButton.innerHTML = '↑';
+        backToTopButton.className = 'back-to-top';
+        backToTopButton.style.cssText = `
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--accent);
+            color: white;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+        `;
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        document.body.appendChild(backToTopButton);
+        
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.opacity = '1';
+                backToTopButton.style.visibility = 'visible';
+            } else {
+                backToTopButton.style.opacity = '0';
+                backToTopButton.style.visibility = 'hidden';
+            }
+        });
+        
+        
+        backToTopButton.addEventListener('mouseenter', () => {
+            backToTopButton.style.transform = 'scale(1.1)';
+        });
+        
+        backToTopButton.addEventListener('mouseleave', () => {
+            backToTopButton.style.transform = 'scale(1)';
+        });
+    });
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="我的学习博客 (Alt + H)">我的学习博客</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="主页">
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
+  <h1>
+    博客
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">🎨 博客前端重新设计完成！
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>🚀 全新的博客体验 经过精心设计和开发，我的博客现在拥有了全新的外观和更强大的功能！这次重新设计不仅提升了视觉效果，还大大改善了用户体验。
+✨ 主要改进 🎨 视觉设计升级 现代化配色方案: 采用了更加柔和舒适的配色，支持深色和浅色主题 优雅的渐变效果: 标题和按钮使用了精美的渐变色彩 圆润的边角设计: 所有元素都采用了更加圆润的边角，看起来更加友好 精美的动画效果: 添加了平滑的过渡动画和悬停效果 🔧 功能增强 1. 搜索功能 现在支持全文搜索，可以快速找到你需要的内容：
+支持标题、内容、标签的搜索 实时搜索结果显示 键盘快捷键支持 (Ctrl/Cmd &#43; K) 2. 阅读体验优化 阅读进度条: 页面顶部显示阅读进度 返回顶部按钮: 平滑滚动到页面顶部 图片点击放大: 点击文章中的图片可以放大查看 代码高亮: 更好的代码显示效果 3. 导航优化 面包屑导航: 清晰显示当前位置 文章导航: 上一篇/下一篇文章快速跳转 标签和分类: 更好的内容组织方式 📱 响应式设计 博客现在完全支持各种设备：
+📱 手机端优化 💻 桌面端完美显示 📟 平板设备适配 🛠️ 技术实现 这次重新设计主要使用了以下技术：
+1/* 示例：自定义CSS变量 */ 2:root { 3 --accent: rgb(13, 110, 253); 4 --accent-hover: rgb(10, 88, 202); 5 --radius: 12px; 6 --gap: 28px; 7} 8 9/* 渐变标题效果 */ 10.profile .profile_inner h1 { 11 background: linear-gradient(135deg, var(--accent), #6f42c1); 12 -webkit-background-clip: text; 13 -webkit-text-fill-color: transparent; 14} 主要特性 CSS自定义属性: 使用CSS变量实现主题切换 Flexbox布局: 现代化的布局方式 CSS动画: 平滑的交互动画 JavaScript增强: 添加实用的交互功能 🎯 用户体验提升 键盘快捷键 Ctrl/Cmd &#43; K: 打开搜索 Ctrl/Cmd &#43; H: 返回首页 ESC: 返回上一页或关闭弹窗 视觉反馈 悬停效果 点击反馈 加载动画 平滑过渡 📊 性能优化 字体优化: 使用Inter字体，提升阅读体验 资源预加载: 关键CSS资源预加载 图片懒加载: 提升页面加载速度 代码分割: 按需加载JavaScript功能 🔮 未来计划 接下来还会继续优化和添加新功能：
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-15 10:00:00 +0800 CST'>January 15, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;NaFisdope</footer>
+  <a class="entry-link" aria-label="post link to 🎨 博客前端重新设计完成！" href="http://localhost:1313/posts/blog-redesign/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">我的学习博客</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<style>
+     
+    .footer {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .footer::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, var(--accent), transparent);
+        animation: shimmer 3s infinite;
+    }
+    
+    @keyframes shimmer {
+        0% { left: -100%; }
+        100% { left: 100%; }
+    }
+    
+     
+    .footer-content {
+        max-width: var(--main-width);
+        margin: 0 auto;
+        padding: 0 var(--gap);
+    }
+    
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    
+    .footer-links a {
+        color: var(--secondary);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.3s ease;
+        position: relative;
+    }
+    
+    .footer-links a:hover {
+        color: var(--accent);
+    }
+    
+    .footer-links a::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: var(--accent);
+        transition: width 0.3s ease;
+    }
+    
+    .footer-links a:hover::after {
+        width: 100%;
+    }
+    
+    .copyright {
+        font-size: 0.85rem;
+        color: var(--secondary);
+        text-align: center;
+    }
+    
+    .heart {
+        color: #e74c3c;
+        animation: heartbeat 1.5s ease-in-out infinite;
+    }
+    
+    @keyframes heartbeat {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+    }
+    
+     
+    @media (max-width: 768px) {
+        .footer-links {
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+    }
+</style>
+
+<div class="footer-content">
+    <div class="footer-links">
+        <a href="/">首页</a>
+        <a href="/posts/">文章</a>
+        <a href="/about/">关于</a>
+        <a href="/search/">搜索</a>
+        <a href="/tags/">标签</a>
+        <a href="/categories/">分类</a>
+    </div>
+    <div class="copyright">
+        © 2025 我的学习博客 | Made with <span class="heart">♥</span> using Hugo & PaperMod
+    </div>
+</div>
+
+
+<script>
+    
+    document.addEventListener('keydown', function(e) {
+        
+        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+            e.preventDefault();
+            const searchLink = document.querySelector('a[href*="search"]');
+            if (searchLink) {
+                window.location.href = searchLink.href;
+            }
+        }
+        
+        
+        if ((e.ctrlKey || e.metaKey) && e.key === 'h') {
+            e.preventDefault();
+            window.location.href = '/';
+        }
+        
+        
+        if (e.key === 'Escape') {
+            if (document.referrer && document.referrer !== window.location.href) {
+                window.history.back();
+            }
+        }
+    });
+    
+    
+    if (document.querySelector('.post-content')) {
+        const progressBar = document.createElement('div');
+        progressBar.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), #6f42c1);
+            z-index: 9999;
+            transition: width 0.1s ease;
+        `;
+        document.body.appendChild(progressBar);
+        
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.pageYOffset;
+            const docHeight = document.body.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            progressBar.style.width = scrollPercent + '%';
+        });
+    }
+    
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('.post-content img');
+        images.forEach(img => {
+            
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+                const overlay = document.createElement('div');
+                overlay.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.9);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 10000;
+                    cursor: zoom-out;
+                `;
+                
+                const enlargedImg = document.createElement('img');
+                enlargedImg.src = this.src;
+                enlargedImg.style.cssText = `
+                    max-width: 90%;
+                    max-height: 90%;
+                    object-fit: contain;
+                    border-radius: 8px;
+                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+                `;
+                
+                overlay.appendChild(enlargedImg);
+                document.body.appendChild(overlay);
+                
+                overlay.addEventListener('click', () => {
+                    document.body.removeChild(overlay);
+                });
+                
+                
+                const closeOnEsc = (e) => {
+                    if (e.key === 'Escape') {
+                        document.body.removeChild(overlay);
+                        document.removeEventListener('keydown', closeOnEsc);
+                    }
+                };
+                document.addEventListener('keydown', closeOnEsc);
+            });
+        });
+    });
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
