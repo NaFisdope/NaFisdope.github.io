@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://NaFisdope.github.io/posts/</loc><lastmod>2025-08-19T16:03:38+08:00</lastmod></url><url><loc>https://NaFisdope.github.io/</loc><lastmod>2025-08-19T16:03:38+08:00</lastmod></url><url><loc>https://NaFisdope.github.io/posts/my-first-post/</loc><lastmod>2025-08-19T16:03:38+08:00</lastmod></url><url><loc>https://NaFisdope.github.io/categories/</loc></url><url><loc>https://NaFisdope.github.io/tags/</loc></url><url><loc>https://NaFisdope.github.io/about/</loc><lastmod>2025-08-19T16:03:38+08:00</lastmod></url><url><loc>https://NaFisdope.github.io/search/</loc><lastmod>2025-08-19T16:03:38+08:00</lastmod></url><url><loc>https://NaFisdope.github.io/archives/</loc><lastmod>2025-08-19T16:03:38+08:00</lastmod></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://NaFisdope.github.io/</loc>
+         <lastmod>2025-08-28</lastmod>
+    </url>
+    <url>
+         <loc>https://NaFisdope.github.io/posts/</loc>
+         <lastmod>2025-08-28</lastmod>
+    </url>
+    <url>
+         <loc>https://NaFisdope.github.io/posts/my-first-post/</loc>
+         <lastmod>2025-08-28</lastmod>
+    </url>
+</urlset>
