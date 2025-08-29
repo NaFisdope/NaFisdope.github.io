@@ -23,7 +23,7 @@
     }
 
     if (!scheme) {
-      scheme = "default"
+      scheme = "slate"
     }
     if (!prefers) {
       prefers = "false"
@@ -31,6 +31,8 @@
 
     if (prefers === "true" && preferSupported) {
       scheme = (window.matchMedia("(prefers-color-scheme: dark)").matches) ? "slate" : "default"
+    } else {
+      prefers = "false"
     }
 
     body.setAttribute("data-md-prefers-color-scheme", prefers)
@@ -69,18 +71,18 @@ window.toggleScheme = () => {
   let scheme = body.getAttribute("data-md-color-scheme")
   let prefer = body.getAttribute("data-md-prefers-color-scheme")
 
-  if (scheme === "default" && prefer !== "true") {
-    prefer = "false"
-    scheme = "slate"
-  } else if (scheme === "slate" && prefer !== "true") {
-    prefer = "false"
-    scheme = "default"
+  if (preferSupported && scheme === "default" && prefer !== "true") {
+    prefer = "true"
+    scheme = (window.matchMedia("(prefers-color-scheme: dark)").matches) ? "slate" : "default"
   } else if (preferSupported && prefer === "true") {
     prefer = "false"
     scheme = "slate"
+  } else if (scheme === "slate") {
+    prefer = "false"
+    scheme = "default"
   } else {
-    prefer = "true"
-    scheme = (window.matchMedia("(prefers-color-scheme: dark)").matches) ? "slate" : "default"
+    prefer = "false"
+    scheme = "slate"
   }
   localStorage.setItem("data-md-prefers-color-scheme", prefer)
   localStorage.setItem("data-md-color-scheme", scheme)
