@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://NaFisdope.github.io/</loc>
-         <lastmod>2025-08-28</lastmod>
+         <lastmod>2025-08-29</lastmod>
     </url>
     <url>
          <loc>https://NaFisdope.github.io/posts/</loc>
-         <lastmod>2025-08-28</lastmod>
+         <lastmod>2025-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://NaFisdope.github.io/posts/golang-windows-slow-compilation-fix/</loc>
+         <lastmod>2025-08-29</lastmod>
     </url>
     <url>
          <loc>https://NaFisdope.github.io/posts/my-first-post/</loc>
-         <lastmod>2025-08-28</lastmod>
+         <lastmod>2025-08-29</lastmod>
     </url>
 </urlset>
